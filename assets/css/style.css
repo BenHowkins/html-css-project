@@ -12,7 +12,7 @@ body {
 
 /* headings and logo */
 
-h1 {
+h1, h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -55,4 +55,45 @@ h1 {
 
 .active {
     border-bottom: 1px solid green;
+}
+
+/* hero image and text */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-text, #hero-text h2 {
+    color: #fff;
+}
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/hockey-game.jpg') no-repeat center center;
+    position: relative;
+    top: 50px;
+}
+
+#hero-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 250px;
+    height: 100px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(107, 214, 241, 0.7);
+
+    bottom: 100px;
+    right: 150px;
+
+    position: absolute;
 }
