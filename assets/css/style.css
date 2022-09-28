@@ -90,10 +90,59 @@ h1, h2 {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(107, 214, 241, 0.7);
+    background-color: rgba(107, 214, 241, 0.5);
 
     bottom: 100px;
     right: 150px;
 
     position: absolute;
+}
+
+#key-info {
+    height: 700px;
+}
+
+#left-info {
+    padding-top: 30px;
+    width: 40%;
+    float: left;
+}
+
+#right-info {
+    padding-top: 30px;
+    width: 40%;
+    float: right;
+}
+
+hr {
+    border-top: 1px solid orchid;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-info-section {
+    width: 60%;
+    float: right;
+    line-height: 25px;
+    clear: both;
+    margin-bottom: 60px;
+}
+
+.right-info-section {
+    width: 60%;
+    float: left;
+    line-height: 25px;
+    clear: both;
+    margin-bottom: 40px;
+}
+
+.right-info-section h2, .right-info-section p {
+    text-align: right;
+}
+
+
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
 }
