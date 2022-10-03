@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Raleway:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,18 +7,18 @@
 }
 
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 200;
-    color: blue;
+    color: #404040;
 }
 
 /* headings and logo */
 
 h1, h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Abyssinica SIL', serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: red;
+    color: #0F60B6;
 }
 
 #logo {
@@ -71,26 +73,26 @@ h1, h2 {
 }
 
 #hero-image {
-    height: 500px;
+    height: 550px;
     width: 100%;
-    background: url('../images/hockey-game.jpg') no-repeat center center;
+    background: url('../images/game.jpg') no-repeat center center;
     position: relative;
     top: 50px;
 }
 
 #hero-text {
     font-size: 130%;
-    font-family: Oswald, sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 250px;
+    width: 230px;
     height: 100px;
 
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 10px;
 
-    background-color: rgba(107, 214, 241, 0.5);
+    background-color: rgba(64, 64, 64, 0.6);
 
     bottom: 100px;
     right: 150px;
