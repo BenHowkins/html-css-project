@@ -52,11 +52,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid green;
+    border: 1px solid #0F60B6;
 }
 
 .active {
-    border-bottom: 1px solid green;
+    border: 1px solid #0F60B6;
 }
 
 /* hero image and text */
@@ -175,13 +175,20 @@ hr {
 /* footer */
 
 footer {
-    height: 200px;
+    height: 100px;
+    background-color: #F2F2F2;
 }
 
 .helpful-link {
     text-align: center;
+    position: relative;
+    top: 30px;
 }
 
 .helpful-link > li {
     display: inline;
+    margin: 1%;
+    padding: 5%;
+    color: #404040;
+    text-decoration: none;
 }
