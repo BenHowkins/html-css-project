@@ -14,7 +14,7 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Abyssinica SIL', serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -27,6 +27,9 @@ h1, h2 {
     margin-left: 30px;
 }
 
+header {
+height: 100px;
+}
 /* navigation links */
 
 #menu {
@@ -68,7 +71,7 @@ h1, h2 {
     position: relative;
 }
 
-#hero-text, #hero-text h2 {
+#hero-text, #hero-text h2, #hero-text h3 {
     color: #fff;
 }
 
@@ -122,32 +125,38 @@ h1, h2 {
 }
 
 hr {
-    border-top: 1px solid orchid;
+    border-top: 1px solid black;
     width: 100%;
     margin: 5px 0;
 }
 
-.left-info-section {
-    width: 60%;
+.left-info-section, .left-info {
     float: right;
     line-height: 25px;
     clear: both;
     margin-bottom: 60px;
 }
 
-.right-info-section {
+.left-info-section {
     width: 60%;
+}
+
+.right-info-section, .right-info {
     float: left;
     line-height: 25px;
     clear: both;
     margin-bottom: 40px;
 }
 
-.right-info-section h2, .right-info-section p {
+.right-info-section {
+    width: 60%;
+}
+
+.right-info-section h2, .right-info-section p, .right-info h2, .right-info p {
     text-align: right;
 }
 
-#welcome {
+.welcome {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
@@ -191,4 +200,32 @@ footer {
     padding: 5%;
     color: #404040;
     text-decoration: none;
+}
+
+#nhl {
+    padding: 15px;
+    height: 400px;
+}
+
+.conference {
+    padding: 15px;
+    border: 1px solid #404040;
+    height: 1500px;
+}
+
+.team {
+    width: 20%;
+    height: 300px;
+    margin-left: 2.5%;
+    margin-top: 5px;
+    border: 1px solid black;
+    float: left;
+    background-color: #F2F2F2;
+}
+
+.team-logo {
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: auto;
 }
