@@ -221,6 +221,7 @@ footer {
     border: 1px solid black;
     float: left;
     background-color: #F2F2F2;
+    padding: 5px;
 }
 
 .team-logo {
@@ -228,4 +229,8 @@ footer {
     width: 150px;
     display: block;
     margin: auto;
+}
+
+.team-info {
+    list-style: none;
 }
