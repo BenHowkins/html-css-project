@@ -202,7 +202,7 @@ footer {
 /* Rules Page */
  #rules {
     padding: 10px;
-    height: 3100px;
+    height: 3200px;
  }
 
 #rules.info {
@@ -261,4 +261,9 @@ footer {
 
 .team-info {
     list-style: none;
+}
+
+.head {
+    text-transform: uppercase;
+    color: #0F60B6;   
 }
