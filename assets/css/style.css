@@ -191,6 +191,12 @@ footer {
     letter-spacing: 3px;
     color: #0F60B6;
 }
+
+.empho {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
 /* NHL Page */
 
 #nhl {
@@ -271,5 +277,9 @@ footer {
     .team {
         width: 40%;
         height: 460px;
+    }
+
+    .team-logo {
+        height: 33%;
     }
 }
