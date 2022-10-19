@@ -136,8 +136,9 @@ hr {
 }
 
 #center-image {
-    padding-top: 10px;
+    padding: 10px 0;
     height: 250px;
+    width: 60%;
     display: block;
     margin: auto;
 }
@@ -172,10 +173,14 @@ footer {
     padding: 15px;
     height: 950px;
 }
+ .picture {
+    height: 300px;
+ }
 
 #rink {
-    padding-top: 10px;
+    padding: 10px;
     height: 250px;
+    width: 65%;
     display: block;
     margin: auto;
 }
@@ -238,17 +243,28 @@ footer {
     color: #0F60B6;   
 }
 
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #cover-text {
+        left: 10px;
+        bottom: 40px;
+    }
+}
 
 /* For small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
     
-    #key-info {
-        height: 1000px;
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 
-    #center-image {
-        width: 50%;
-        height: fit-content;
+    #key-info {
+        height: 1200px;
     }
 
     #hero-text {
@@ -259,10 +275,14 @@ footer {
     .helpful-link > li {
         display: block;
     }
+    
+    .picture {
+        height: 200px;
+    }
 
     #rink {
-        width: 50%;
-        height: fit-content;
+        width: 70%;
+        height: 50%;
     }
 
     .conference {
