@@ -2,6 +2,18 @@
 
 [View the live project here.](https://benhowkins.github.io/html-css-project/)
 
+<img src ="assets/images/screenshots/index-hero.png">
+
+<img src ="assets/images/screenshots/index-info-and-gear.png">
+
+<img src ="assets/images/screenshots/rules-info.png">
+
+<img src ="assets/images/screenshots/rules-info-and-rink.png">
+
+<img src ="assets/images/screenshots/nhl-info.png">
+
+<img src ="assets/images/screenshots/nhl-pacific.png">
+
 This is a information website for the sport of Ice Hockey. It is designed to be responsibe and accessible on a range of devices, allowing for the max amount of people to be able to access it and it's information.
 
 ## User Experience (UX)
