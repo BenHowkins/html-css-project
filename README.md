@@ -4,17 +4,15 @@
 
 <img src ="assets/images/screenshots/index-hero.png">
 
-<img src ="assets/images/screenshots/index-info-and-gear.png">
-
-<img src ="assets/images/screenshots/rules-info.png">
-
 <img src ="assets/images/screenshots/rules-info-and-rink.png">
 
-<img src ="assets/images/screenshots/nhl-info.png">
+<img src ="assets/images/screenshots/rules-video.png">
 
 <img src ="assets/images/screenshots/nhl-pacific.png">
 
-This is a information website for the sport of Ice Hockey. It is designed to be responsibe and accessible on a range of devices, allowing for the max amount of people to be able to access it and it's information.
+<img src ="assets/images/screenshots/contact-form.png">
+
+This is an information and reference website for the sport of Ice Hockey. It is designed to be responsibe and accessible on a range of devices, allowing for the max amount of people to be able to access the site and it's information.
 
 ## User Experience (UX)
 
@@ -76,17 +74,32 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. 1. As a First Time Visitor, I want to easily understand the main purpose of the site and be able to learn some basic history and rules of the sport.
 
-        1. Upon entering the site, the first thing users are greeted with is a clear title and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and then a short, bold heading explaining the content below.
+        1. Upon entering the site, the first thing users are greeted with is a clear title and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and then a short, bold heading explaining the content below. (See Screenshots Below)
+
+        <img src ="assets/images/screenshots/index-hero.png">
+        
+        <img src ="assets/images/screenshots/index-info-and-gear.png">
+        
         2. The hero image give a quick look at the content and makes them want to find out more.
         3. The user has two options, scroll down to see more content on the topic outlined in the heading or clink one of the navagation links to go another page of their choice.
 
     2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-        1. The site has been designed so that all relivant content is together but the text is also spaced and has different orientations so it doesn't become too repetitive and overwhelming.
-        2. At the top of each page there is a navigation bar, with each link describing what page they will end up on and a one word description of it's content.
+        1. The site has been designed so that all relivant content is together but the text is also spaced and has different orientations so it doesn't become too repetitive and overwhelming. (See Screenshots Below)
+
+        <img src ="assets/images/screenshots/rules-info.png">
+
+        <img src ="assets/images/screenshots/nhl-info.png">
+
+
+        2. At the top of each page there is a navigation bar, with each link describing what page they will end up on and a one word description of it's content. (See Screenshot Below)
+
+        <img src ="assets/images/screenshots/index-hero.png">
 
     3. As a First Time Visitor, I want to be further expand my knowledge and understanding of the information by using the links to other external sources provided.
-        1. At the bottom of each page there is a Footer bar with links to external sites, each one further expanding on outlined information from each page.
+        1. At the bottom of each page there is a Footer bar with links to external sites, each one further expanding on outlined information from the three information pages. (See Screenshot Below)
+
+        <img src ="assets/images/screenshots/index-footer.png">
 
 -   #### Returning Visitor Goals
 
@@ -104,6 +117,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   The website was viewed on a variety of devices such as Desktop, Laptop, Kindle Fire Tablets, iPhone 12 and Huawei Pro30.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Issues Arose During Testing
+
+-   On smaller devices such as Tablets and Smartphone some people experienced some of the images being streched and looking slightly distorted. This was due to me not recalculating percentage differences for new div and container sizes for smaller images, so once I recalculated the issue was resolved.
+-   Also on some smaller devices in particular iphones some people experienced having the footer links inside the "Is Ice Hockey Popular?" section of the "Home" page. This was due to the "key-info" container being slightly too small for the screen size of the iphone and was fixed by increasing the container's size.
 
 ### Known Bugs
 

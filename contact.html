@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Infomation about the sport of Ice Hockey, it's rules and the NHL">
+    <meta name="keywords" content="ice hockey, sports, nhl">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Ice Hockey</title>
+</head>
+
+<body>
+
+    <!-- Header Section With Logo And Nav Bar -->
+    <header>
+
+        <a href="index.html">
+            <h1 id="logo">Ice Hockey</h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="contact.html" class="active">Contact</a>
+                </li>
+                <li>
+                    <a href="nhl.html">NHL</a>
+                </li>
+                <li>
+                    <a href="rules.html">Rules</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>  
+    
+    <!-- Hero Image -->
+
+    <section id="hero-outer">
+        <div id="hero-image"></div>
+        <div id="hero-text">
+            <h2>Ice Hockey</h2>
+            <h3>The Fastest Game On Ice</h3>
+        </div>
+    </section>
+
+    <section id="sign-up">
+        <h2 class="welcome"> Sign-Up For More Information</h2>
+        <form class="contact-form" method="post" action="index.html">
+            <h2>Tell Us About You</h2>
+            <br>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="first_name" required>
+            <br>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="last_name" required>
+            <br>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" required>
+            <br>
+            <br>
+            <h2>What Do You Want To Know About?</h2>
+            <label for="general-news">General News Updates</label>
+            <input type="radio" id="general-news" name="info-type" value="general-news" required>
+            <br>
+            <label for="nhl-news">NHL News Updates</label>
+            <input type="radio" id="nhl-news" name="info-type" value="nhl-news">
+            <br>
+            <label for="both">All The Hockey News</label>
+            <input type="radio" id="both" name="info-type" value="both">
+            <br>
+            <br>
+            <input class="submit" type="submit" value="LET'S PLAY HOCKEY!!">
+        </form>
+
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer>
+        <ul class="helpful-link">
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Ice_hockey" target="_blank" rel="noopener"
+                aria-label="Visit the Ice Hockey wikipedia page (opens in a new tab)">Ice Hockey Wikipedia<i class="fab fa-wikipedia-w"></i></a>
+            </li>
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Penalty_(ice_hockey)#Quick_reference_chart" target="_blank" rel="noopener"
+                aria-label="Visit the Ice Hockey Penalties wikipedia page (opens in a new tab)">Penalties Wikipedia<i class="fal fa-whistle"></i></a>
+            </li>
+            <li>
+                <a href="https://www.nhl.com/" target="_blank" rel="noopener"
+                aria-label="Visit the NHL page (opens in a new tab)">NHL Website<i class="fas fa-hockey-puck"></i></a>
+            </li>
+        </ul>
+    </footer>
+    
+    <!-- Font Awesome script-->
+        
+    <script src="https://kit.fontawesome.com/226f6da905.js" crossorigin="anonymous"></script>
+</body>
+    
+</html>

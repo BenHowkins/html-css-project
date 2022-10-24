@@ -182,6 +182,11 @@ footer {
     margin: auto;
 }
 
+#pens-vid {
+    width: 600px;
+    height: 400px;
+}
+
 #pen-info {
     padding: 15px;
     height: 800px;
@@ -240,6 +245,23 @@ footer {
     color: #0F60B6;   
 }
 
+/* Contact Page */
+
+#sign-up {
+    height: 400px;
+}
+
+.contact-form {
+    border: 1px solid black;
+    background-color: #F2F2F2;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.submit {
+    background: #fff;
+}
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
@@ -249,14 +271,15 @@ footer {
     }
 }
 
-/* For small screen sizes 800px and down */
+/* For small screen sizes 750px and down */
 @media screen and (max-width: 800px) {
     
     #menu {
+        font-size: 100%;
         clear: left;
         float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
+        margin-left: 5px;
+        margin-bottom: 5px;
         line-height: 25px;
     }
 
@@ -282,6 +305,11 @@ footer {
         height: 50%;
     }
 
+    #pens-vid {
+        height: 150px;
+        width: 250px;
+    }
+
     .conference {
         margin: 5px;
         height: 4000px;
@@ -298,5 +326,9 @@ footer {
 
     .team-logo {
         height: 33%;
+    }
+
+    #sign-up {
+        height: 500px;
     }
 }
