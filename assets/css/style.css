@@ -27,7 +27,7 @@ h1, h2, h3 {
     margin-left: 30px;
 }
 
-header {
+header, nav {
 height: 100px;
 }
 
@@ -39,9 +39,9 @@ height: 100px;
 }
 
 #menu, #logo {
-    line-height: 75px;
+    line-height: 70px;
     position: relative;
-    top: 40px;
+    top: 15px;
 }
 
 #menu li {
@@ -265,7 +265,10 @@ footer {
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 900px) {
 
-    #logo{
+    header, nav {
+        height: 75px;
+    }
+    #logo {
         font-size: 200%;
     }
     
@@ -289,19 +292,23 @@ footer {
 @media screen and (max-width: 750px) {
 
     header {
-        height: 150px;
+        height: 70px;
+        }
+      
+    nav {
+        height: 50px;
     }
-
-    #menu{
-        font-size: 100%;
-        top: 20px;
+    #menu {
+        font-size: 90%;
+        top: 5px;
     }
     
     #menu li {
-        margin-right: 10px;
+        margin-right: 7.5px;
+        margin-top: 5px;
     }
 
-    .welcome{
+    .welcome {
         font-size: 200%;
     }
 
@@ -309,8 +316,12 @@ footer {
         height: 1200px;
     }
 
+    #hero-image {
+        top: 20px;
+    }
+
     #hero-text {
-        bottom: 10px;
+        bottom: 50px;
         right: 25px;
     }
 
@@ -356,6 +367,6 @@ footer {
     }
 
     #sign-up {
-        height: 500px;
+        height: 560px;
     }
 }
