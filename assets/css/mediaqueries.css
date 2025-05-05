@@ -1,0 +1,108 @@
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 900px) {
+
+    header, nav {
+        height: 75px;
+    }
+    #logo {
+        font-size: 200%;
+    }
+    
+    #center-image {
+        height: 25%;
+        width: 50%;
+    }    
+
+    #cover-text {
+        left: 10px;
+        bottom: 40px;
+    }
+
+    #rink{
+        height: 150px;
+    }
+
+}
+
+/* For small screen sizes 750px and down */
+@media screen and (max-width: 750px) {
+
+    header {
+        height: 70px;
+        }
+      
+    nav {
+        height: 50px;
+    }
+    #menu {
+        font-size: 90%;
+        top: 5px;
+    }
+    
+    #menu li {
+        margin-right: 7.5px;
+        margin-top: 5px;
+    }
+
+    .welcome {
+        font-size: 200%;
+    }
+
+    #key-info {
+        height: 1200px;
+    }
+
+    #hero-image {
+        top: 20px;
+    }
+
+    #hero-text {
+        bottom: 50px;
+        right: 25px;
+    }
+
+    #center-image {
+        height: 10%;
+        width: 50%;
+    }
+
+    .helpful-link > li {
+        display: block;
+    }
+    
+    .picture {
+        height: 200px;
+    }
+
+    #rink {
+        width: 70%;
+        height: 50%;
+    }
+
+    #pens-vid {
+        height: 150px;
+        width: 250px;
+    }
+
+    .conference {
+        margin: 5px;
+        height: 4000px;
+    }
+
+    #teams {
+        height: 8850px;
+    }
+
+    .team {
+        width: 40%;
+        height: 460px;
+    }
+
+    .team-logo {
+        height: 33%;
+    }
+
+    #sign-up {
+        height: 560px;
+    }
+}

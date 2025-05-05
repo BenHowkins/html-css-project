@@ -1,372 +1,277 @@
-@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Raleway:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Raleway:wght@300&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 200;
-    color: #404040;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  color: #404040;
 }
 
 /* headings and logo */
 
-h1, h2, h3 {
-    font-family: 'Abyssinica SIL', serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #0F60B6;
+h1,
+h2,
+h3 {
+  font-family: "Abyssinica SIL", serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #0f60b6;
 }
 
 #logo {
-    float: left;
-    font-size: 280%;
-    margin-left: 30px;
-}
-
-header, nav {
-height: 100px;
+  float: left;
+  font-size: 250%;
+  margin-left: 30px;
 }
 
 /* navigation links */
 
+nav,
 #menu {
-    font-size: 150%;
-    letter-spacing: 3px;
+  display: flex;
 }
 
-#menu, #logo {
-    line-height: 70px;
-    position: relative;
-    top: 15px;
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
+
+#menu {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+}
+
+#menu,
+#logo {
+  line-height: 70px;
+  position: relative;
+  top: 15px;
 }
 
 #menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
+  /* float: right; */
+  list-style-type: none;
+  margin-right: 30px;
 }
 
 #menu a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 #menu a:hover {
-    border: 1px solid #0F60B6;
+  border: 1px solid #0f60b6;
 }
 
 .active {
-    border: 1px solid #0F60B6;
+  border: 1px solid #0f60b6;
 }
 
 /* hero image and text */
 
 #hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+  height: 75vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
-#hero-text, #hero-text h2, #hero-text h3 {
-    color: #fff;
+#hero-text,
+#hero-text h2,
+#hero-text h3 {
+  color: #fff;
 }
 
 #hero-image {
-    height: 550px;
-    width: 100%;
-    background: url('../images/hockey-game.jpg') no-repeat center center;
-    position: relative;
-    top: 50px;
+  height: 100%;
+  width: 100%;
+  background: url("../images/hockey-game.jpg") no-repeat center center;
+  position: relative;
+  padding: 20px 0 20px 0;
 }
 
 #hero-text {
-    font-size: 130%;
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
-    width: 230px;
-    height: 100px;
-    padding-top: 20px;
-    padding-left: 10px;
-    background-color: rgba(64, 64, 64, 0.6);
-    bottom: 100px;
-    right: 150px;
-    position: absolute;
+  font-size: 130%;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  width: 230px;
+  padding-left: 10px;
+  background-color: rgba(64, 64, 64, 0.6);
+  bottom: 100px;
+  right: 150px;
+  position: absolute;
 }
 
 #key-info {
-    height: 950px;
-    padding: 10px;
+  height: 950px;
+  padding: 10px;
 }
 
 hr {
-    border-top: 1px solid black;
-    width: 100%;
-    margin: 5px 0;
+  border-top: 1px solid black;
+  width: 100%;
+  margin: 5px 0;
 }
 
 .left-information {
-    float: right;
-    line-height: 25px;
-    clear: both;
-    margin-bottom: 60px;
+  float: right;
+  line-height: 25px;
+  clear: both;
+  margin-bottom: 60px;
 }
 
 .right-information {
-    float: left;
-    line-height: 25px;
-    clear: both;
-    margin-bottom: 40px;
+  float: left;
+  line-height: 25px;
+  clear: both;
+  margin-bottom: 40px;
 }
 
-.right-information h2, .right-information p, .right-information h3 {
-    text-align: right;
+.right-information h2,
+.right-information p,
+.right-information h3 {
+  text-align: right;
 }
 
 .welcome {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 280%;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 280%;
 }
 
 #center-image {
-    padding: 10px 0;
-    height: 250px;
-    width: 50%;
-    display: block;
-    margin: auto;
+  padding: 10px 0;
+  height: 250px;
+  width: 50%;
+  display: block;
+  margin: auto;
 }
 
 /* footer */
 
 footer {
-    height: 100px;
+  height: 100px;
 }
 
 .helpful-link {
-    text-align: center;
-    position: relative;
-    top: 30px;
+  text-align: center;
+  position: relative;
+  top: 30px;
 }
 
 .helpful-link > li {
-    display: inline;
-    margin: 1%;
-    padding: 5%;
-    color: #404040;
-    text-decoration: none;
+  display: inline;
+  margin: 1%;
+  padding: 5%;
+  color: #404040;
+  text-decoration: none;
 }
 
 /* Rules Page */
- #rules {
-    padding: 10px;
-    height: 3200px;
- }
+#rules {
+  padding: 10px;
+  height: 3200px;
+}
 
 #rules-info {
-    padding: 15px;
-    height: 950px;
+  padding: 15px;
+  height: 950px;
 }
 
 #rink {
-    padding: 10px;
-    height: 250px;
-    width: 45%;
-    display: block;
-    margin: auto;
+  padding: 10px;
+  height: 250px;
+  width: 45%;
+  display: block;
+  margin: auto;
 }
 
 #pens-vid {
-    width: 600px;
-    height: 400px;
+  width: 600px;
+  height: 400px;
 }
 
 #pen-info {
-    padding: 15px;
-    height: 800px;
+  padding: 15px;
+  height: 800px;
 }
 
 .offence {
-    font-family: 'Abyssinica SIL', serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #0F60B6;
+  font-family: "Abyssinica SIL", serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #0f60b6;
 }
 
 .empho {
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 /* NHL Page */
 
 #nhl {
-    padding: 15px;
-    height: 400px;
+  padding: 15px;
+  height: 400px;
 }
 
 .conference {
-    padding: 15px;
-    border: 1px solid #404040;
-    height: 1500px;
-    margin: 10px;
+  padding: 15px;
+  border: 1px solid #404040;
+  height: 1500px;
+  margin: 10px;
 }
 
 .team {
-    width: 20%;
-    height: 320px;
-    margin-left: 2.5%;
-    margin-top: 5px;
-    border: 1px solid black;
-    float: left;
-    background-color: #F2F2F2;
-    padding: 5px;
+  width: 20%;
+  height: 320px;
+  margin-left: 2.5%;
+  margin-top: 5px;
+  border: 1px solid black;
+  float: left;
+  background-color: #f2f2f2;
+  padding: 5px;
 }
 
 .team-logo {
-    height: 47%;
-    width: 75%;
-    display: block;
-    margin: auto;
+  height: 47%;
+  width: 75%;
+  display: block;
+  margin: auto;
 }
 
 .team-info {
-    list-style: none;
+  list-style: none;
 }
 
 .head {
-    text-transform: uppercase;
-    color: #0F60B6;   
+  text-transform: uppercase;
+  color: #0f60b6;
 }
 
 /* Contact Page */
 
 #sign-up {
-    height: 400px;
+  height: 400px;
 }
 
 .contact-form {
-    border: 1px solid black;
-    background-color: #F2F2F2;
-    padding: 15px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+  border: 1px solid black;
+  background-color: #f2f2f2;
+  padding: 15px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 .submit {
-    background: #fff;
-}
-/* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 900px) {
-
-    header, nav {
-        height: 75px;
-    }
-    #logo {
-        font-size: 200%;
-    }
-    
-    #center-image {
-        height: 25%;
-        width: 50%;
-    }    
-
-    #cover-text {
-        left: 10px;
-        bottom: 40px;
-    }
-
-    #rink{
-        height: 150px;
-    }
-
-}
-
-/* For small screen sizes 750px and down */
-@media screen and (max-width: 750px) {
-
-    header {
-        height: 70px;
-        }
-      
-    nav {
-        height: 50px;
-    }
-    #menu {
-        font-size: 90%;
-        top: 5px;
-    }
-    
-    #menu li {
-        margin-right: 7.5px;
-        margin-top: 5px;
-    }
-
-    .welcome {
-        font-size: 200%;
-    }
-
-    #key-info {
-        height: 1200px;
-    }
-
-    #hero-image {
-        top: 20px;
-    }
-
-    #hero-text {
-        bottom: 50px;
-        right: 25px;
-    }
-
-    #center-image {
-        height: 10%;
-        width: 50%;
-    }
-
-    .helpful-link > li {
-        display: block;
-    }
-    
-    .picture {
-        height: 200px;
-    }
-
-    #rink {
-        width: 70%;
-        height: 50%;
-    }
-
-    #pens-vid {
-        height: 150px;
-        width: 250px;
-    }
-
-    .conference {
-        margin: 5px;
-        height: 4000px;
-    }
-
-    #teams {
-        height: 8850px;
-    }
-
-    .team {
-        width: 40%;
-        height: 460px;
-    }
-
-    .team-logo {
-        height: 33%;
-    }
-
-    #sign-up {
-        height: 560px;
-    }
+  background: #fff;
 }
